@@ -1,6 +1,6 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import { Group, Text, Image } from "@mantine/core"
+import { Group, Image } from "@mantine/core"
 
 const Home: NextPage = () => {
     return (
