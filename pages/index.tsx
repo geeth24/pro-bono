@@ -1,17 +1,20 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import { Text } from "@mantine/core"
-
+import type { NextPage } from "next"
+import Head from "next/head"
+import { Group, Text, Image } from "@mantine/core"
 
 const Home: NextPage = () => {
-  return (
-   <>
-   <Head>
+    return (
+        <>
+            <Head>
+                <title>Pro Bono</title>
+            </Head>
+            <Group>
+                <Image width={200} src="/logo.svg" />
 
-   </Head>
-   <Text size="xl">Hello World</Text>
-   </>
-  )
+                <Group position=
+            </Group>
+        </>
+    )
 }
 
 export default Home

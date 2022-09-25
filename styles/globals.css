@@ -13,3 +13,28 @@ a {
 * {
     box-sizing: border-box;
 }
+
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("/fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("/fonts/PlayfairDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+
+}
