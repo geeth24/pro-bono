@@ -7,6 +7,7 @@ const Home: NextPage = () => {
         <>
             <Head>
                 <title>Legal Dove</title>
+                <link rel="icon" href="" /> {/* add path to logo */}
             </Head>
             <Text size="xl">Hello World</Text>
         </>
